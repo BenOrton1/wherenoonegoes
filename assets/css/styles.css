@@ -1,5 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
 body{
-    background-image: url("../images/BG Gradient.png");
+    
+    background-image: linear-gradient(to bottom, #fccbb2, #fff);
     background-size:cover;
     background-repeat: no-repeat;
+    font-family: 'Coming Soon', cursive, "sans-serif";
+}
+
+/*-----header------*/
+.header-image{
+   width: 100%;
+   height: auto;
+   margin:15px 0;
+}
+
+/*-------navbar----------*/
+.nav-link{
+    font-size:1.3em;
+    margin:0px 30px;
 }
