@@ -15,6 +15,9 @@ body {
 }
 
 
+h2{
+    text-align:center;
+}
 /*-----header------*/
 
 /*-------comics------*/
@@ -22,17 +25,17 @@ body {
 a {
     color: #000000;
     text-decoration: none;
-    padding: 15px;
     transition: ease-in-out;
     -webkit-transition: ease-in-out;
     -moz-transition: ease-in-out;
     -o-transition: ease-in-out;
     transition-duration: 0.3s;
-    
+
 }
 
 a:hover {
     color: #ff0000ba;
+    text-decoration: none;
     transition: ease-in-out;
     -webkit-transition: ease-in-out;
     -moz-transition: ease-in-out;
@@ -41,15 +44,17 @@ a:hover {
 }
 
 /*-------navbar----------*/
-nav ul{
-    list-style-type:none;
-      padding:0;
-   
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
 }
+
 nav ul li {
 
-    display:inline-flex;
-  
+    display: inline-flex;
+
 }
 
 /*-------footer----------*/
@@ -63,4 +68,30 @@ nav ul li {
 
 .about-me-text {
     text-align: center;
+}
+
+/*-------support-------*/
+
+
+.social-media{
+    margin-top:100px;
+}
+
+nav ul li img {
+    height: 1em;
+    transition: ease-in-out;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
+    -o-transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+nav ul li img:hover {
+
+    opacity: 0.5;
+    transition: ease-in-out;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
+    -o-transition: ease-in-out;
+    transition-duration: 0.3s;
 }
